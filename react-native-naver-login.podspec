@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.summary       = package['description']
   s.requires_arc = true
   s.license      = package['license']
-  s.homepage     = package['homepage']
+  s.homepage     = "test"
   s.authors      = { "jeffgukang" => "" }
   s.source       = { :git => "https://github.com/minhtruong315/react-native-naver-login", :tag => 'v#{version}'}
   s.source_files = 'ios/*.{h,m}'
